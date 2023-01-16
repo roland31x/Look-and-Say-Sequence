@@ -15,7 +15,7 @@ namespace Look_and_Say
             Console.WriteLine("Look and Say sequence generator, enter an 'n' value to display first 'n' numbers.");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine();
-            Console.WriteLine("0: 1");
+            Console.WriteLine("0: " + s);
             for(int i = 1; i <= n; i++)
             {
                 Console.Write(i + ": ");
